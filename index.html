@@ -1,61 +1,81 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio Saya</title>
     <link rel="stylesheet" href="./style/style.css">
 </head>
-<body class="bg-[#f8f8f8] h-screen flex flex-col justify-between">
+
+<body class="bg-[#f1f3fa] h-screen flex flex-col justify-between">
     <div class="">
-        <div class="mx-1 sm:mx-20 xl:mx-56 pt-10">
+        <div class="mx-1 sm:mx-12 xl:mx-44 pt-10">
             <div class="flex w-full">
-                <img src="./assets/example.jpg" alt="Foto Profil" class="object-cover rounded-full size-32 flex-initial">
+                <img src="./assets/example.jpg" alt="Foto Profil"
+                    class="object-cover rounded-full size-32 flex-initial">
                 <div class="pl-5 space-y-3 w-full flex-auto">
-                    <h4 class="text-[24px] sm:text-[28px] lg:text-[32px] 2xl:text-[44px] flex-auto w-full">Taufik Harisman</h4>
+                    <h4 class="text-[24px] sm:text-[28px] lg:text-[32px] 2xl:text-[44px] flex-auto w-full">Taufik <br
+                            class="sm:hidden">
+                        Harisman</h4>
                     <hr class="w-[95%] sm:w-11/12 h-2 bg-[#464646] rounded-xl opacity-80">
-                    <div class="flex flex-row justify-start sm:justify-end flex-wrap w-1/3 sm:text-[16px] lg:text-[20px] 2xl:text-[26px] ">
-                        <a href="#" class="flex-auto">Home</a>
-                        <a href="#" class="flex-auto">Project</a>
-                        <a href="#" class="flex-auto">Contact</a>
+                    <div
+                        class="hidden sm:flex sm:flex-row justify-start sm:justify-end flex-wrap w-3/5 sm:text-[16px] lg:text-[20px] 2xl:text-[26px] ">
+                        <a href="./index.html" class="flex-auto">Home</a>
+                        <a href="./project.html" class="flex-auto">Project</a>
+                        <a href="./contact.html" class="flex-auto">Contact</a>
                     </div>
                 </div>
             </div>
-            <div class="px-12 pt-16">
-                <div class="p-4 sm:p-14 bg-[#ffffff] shadow-2xl">
-                    <h1 class="font-[signikanegative] text-2xl lg:text-5xl text-[#464646]">👨‍💻 Sekilas tentang saya...</h1>
-                    <p class="text-[12px] lg:text-[30px] font-light">Saya seorang programmer dengan dedikasi tinggi
-                         untuk menciptakan solusi teknologi yang inovatif. 
-                        Saya memiliki pengalaman yang kuat dalam pengembangan perangkat 
-                        lunak dan keahlian di berbagai teknologi. Berikut adalah gambaran singkat tentang diri saya:</p>
+            <div class="sm:hidden flex flex-row justify-between flex-wrap w-full text-[16px] my-5 text-center px-5">
+                <a href="./index.html" class="flex-auto">Home</a>
+                <a href="./project.html" class="flex-auto">Project</a>
+                <a href="./contact.html" class="flex-auto">Contact</a>
+            </div>
+            <div class="px-7 xl:px-12 pt-2 sm:pt-16">
+                <div class="p-4 sm:p-14 bg-[#ffffff] shadow-2xl rounded-lg">
+                    <h1 class="font-[--signikanegative] text-2xl lg:text-5xl text-[#464646]">👨‍💻 Sekilas tentang saya...
+                    </h1>
+                    <hr class="bg-[#173b6c] h-2 w-[40%] rounded-full my-4 opacity-30">
+                    <p class="text-[12px] lg:text-[30px] font-light">
+                        Nama saya Taufik Harisman,
+                        usia 20 tahun, saya merupakan mahasiswa
+                        semester 5
+                        dari Fakultas Ilmu Komputer
+                        di Universitas Dian Nuswantoro
+                        . Memiliki pengalaman sebelumnya
+                        mengikuti pengembangan robot gamelan dan
+                        memiliki keahlian pemrograman seperti pemograman
+                        Python, C Arduino, Javascript, dan Rust.
+                    </p>
                 </div>
             </div>
-            <div class="px-12 pt-8">
-                <hr class="bg-[#464646] mb-8 h-2 rounded-full opacity-15 w-auto mx-5 sm:mx-40">
-                <div class="p-4 sm:p-14 bg-[#ffffff] shadow-2xl">
-                    <h1 class="font-[signikanegative] text-2xl lg:text-5xl text-[#464646]">👨‍💻 Sekilas tentang saya...</h1>
-                    <p class="text-[12px] lg:text-[30px] font-light">Saya seorang programmer dengan dedikasi tinggi
-                         untuk menciptakan solusi teknologi yang inovatif. 
-                        Saya memiliki pengalaman yang kuat dalam pengembangan perangkat 
-                        lunak dan keahlian di berbagai teknologi. Berikut adalah gambaran singkat tentang diri saya:</p>
+            <div class="px-7 xl:px-12 pt-2 sm:pt-16">
+                <div class="p-4 sm:p-14 bg-[#ffffff] shadow-2xl rounded-lg">
+                    <h1 class="font-[--signikanegative] text-2xl lg:text-5xl text-[#464646] text-right">Project yang
+                        pernah saya kerjakan
+                    </h1>
+                    <hr class="bg-[#173b6c] h-2 w-[40%] ml-auto rounded-full my-4 opacity-30">
+                    <p class="text-[12px] lg:text-[30px] font-light">
+                        Saya sedang mengikuti pengembangan robot gamelan hingga saat ini.
+                        Robot ini memiliki monitor untuk memudahkan user berinteraksi dan user
+                        bisa memilih lagi dari monitor, perangkat lunak yang dijalankan pada robot ini
+                        memiliki kemampuan memonitor bilah mana yang sedang berjalan dan juga secara otomatis
+                        mendeteksi perangkat keras robot ketika disambungkan ke monitor.
+                    </p>
+                    <div class="w-full flex mt-2 sm:mt-6">
+                        <a class="mx-auto" href="./project.html">
+                            <button class="bg-[#dedad1] h-10 w-24 sm:w-60 rounded-2xl shadow-lg font-sans">Read More ></button>
+                        </a>
+                    </div>
                 </div>
-            </div>
-            <div class="px-12 pt-8">
-                <hr class="bg-[#464646] mb-8 h-2 rounded-full opacity-15 w-auto mx-5 sm:mx-40">
-                <div class="p-4 sm:p-14 bg-[#ffffff] shadow-2xl">
-                    <h1 class="font-[signikanegative] text-2xl lg:text-5xl text-[#464646]">👨‍💻 Sekilas tentang saya...</h1>
-                    <p class="text-[12px] lg:text-[30px] font-light">Saya seorang programmer dengan dedikasi tinggi
-                         untuk menciptakan solusi teknologi yang inovatif. 
-                        Saya memiliki pengalaman yang kuat dalam pengembangan perangkat 
-                        lunak dan keahlian di berbagai teknologi. Berikut adalah gambaran singkat tentang diri saya:</p>
-                </div>
-                <hr class="bg-[#464646] mt-8 h-2 rounded-full opacity-15 w-auto mx-5 sm:mx-40">
             </div>
         </div>
     </div>
-    <footer class="flex justify-between mx-5 sm:mx-20 xl:mx-56 pt-10 text-[10px] sm:text-[24px] py-10 font-mono">
+    <footer class="flex justify-between mx-5 sm:mx-20 xl:mx-56 pt-10 text-[10px] sm:text-[16px] lg:text-[24px] py-10 font-mono">
         <p>© 2024 Haris.</p>
         <p class="text-right">Built with Tailwindcss. </p>
     </footer>
 </body>
+
 </html>
