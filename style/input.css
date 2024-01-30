@@ -1,0 +1,7 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@font-face{
+    font-family: 'signikanegative';
+    src: local('./mywork/font/Signika_Negative/SignikaNegative-VariableFont_wght.ttf');
+}
